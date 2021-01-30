@@ -13,4 +13,7 @@ export class AppComponent {
     { key: 'fa-500px', value: 'https://500px.com/princessprods' },
     { key: 'fa-reddit-alien', value: 'https://reddit.com/u/princessprods'}
   ];
+
+  sexyJobsUrl = 'https://www.sexyjobs.com/jobs/hardcore-porn/E93163';
+  pornhubUrl = 'https://www.pornhub.com/model/badphotographer';
 }
