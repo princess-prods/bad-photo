@@ -1,3 +1,4 @@
+import { KeyValue } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'bad-photo';
+  public socials: KeyValue<string, string>[] = [
+    { key: 'fa-instagram', value: 'https://instagram.com/_bad_photographer' },
+    { key: 'fa-twitter', value: 'https://twitter.com/princess_prods' },
+    { key: 'fa-500px', value: 'https://500px.com/princessprods' },
+    { key: 'fa-reddit-alien', value: 'https://reddit.com/u/princessprods'}
+  ];
 }
